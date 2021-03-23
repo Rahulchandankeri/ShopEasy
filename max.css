@@ -1,0 +1,19 @@
+@media screen and (max-width: 900px) {
+    .login{
+        display: none !important;
+    }
+    .cart{
+        display: none !important;
+    }
+
+    .productcontainer{
+      
+        max-width: 100% !important;
+    }
+    .offer{
+        display: block !important;
+    }
+    .offer img{
+        max-width: 380px !important;
+    }
+}
