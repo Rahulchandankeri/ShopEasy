@@ -1,4 +1,7 @@
 @media screen and (max-width: 900px) {
+    .logo{
+        display: none;
+    }
     .login{
         display: none !important;
     }
