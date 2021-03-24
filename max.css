@@ -9,9 +9,11 @@
     .productcontainer{
       
         max-width: 100% !important;
+        display: grid !important;
+
     }
     .offer{
-        display: block !important;
+        display:  grid  !important;
     }
     .offer img{
         max-width: 380px !important;
