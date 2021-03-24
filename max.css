@@ -2,6 +2,9 @@
     .login{
         display: none !important;
     }
+    #dis1{
+        display: none;
+    }
     .cart{
         display: none !important;
     }
@@ -18,4 +21,19 @@
     .offer img{
         max-width: 380px !important;
     }
+    .mobidiv{
+        border: 0.1px solid #69696940 !important;
+        
+    }
+
+    .footer{
+        flex-direction: column;
+    }
 }
+    @media screen and (max-width: 1090px) {
+        .footer{
+            flex-direction: column;
+
+        }
+       
+    }
