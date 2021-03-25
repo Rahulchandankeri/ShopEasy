@@ -193,6 +193,7 @@ opacity:100%;
 }
 .offer{
     display: flex;
+    flex-wrap: nowrap;
     width: 100%;
     max-width: 2560px;
     justify-content: center;
@@ -212,7 +213,22 @@ opacity:100%;
     justify-content: center;
     max-width: 100%;
     padding: 10px;
+    margin: auto;
+    align-items: center;
 }
+.currentx {
+    position: absolute;
+    padding-top: 10px;
+    justify-content: center;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: #233D4D;
+}
+
+
 .footer{
     display: flex;
     user-select: none;

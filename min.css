@@ -8,7 +8,11 @@
     }
     .cart{
         display:block !important;
-    
-
+    }
 }
+@media screen and (min-width: 860px) {
+
+        .searchcontainer {
+            width: 450px;
+        }
 }
