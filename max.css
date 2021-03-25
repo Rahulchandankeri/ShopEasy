@@ -1,6 +1,9 @@
 @media screen and (max-width: 900px) {
+    body{
+        width: 95%;
+    }
     .logo{
-        display: none;
+        max-width: 20%;
     }
     .login{
         display: none !important;
@@ -13,17 +16,17 @@
     }
 
     .productcontainer{
+        background: none;
+        border: none;
       
         max-width: 100% !important;
         display: grid !important;
 
     }
     .offer{
-        display:  grid  !important;
+        flex-direction: column !important;
     }
-    .offer img{
-        max-width: 380px !important;
-    }
+ 
     .mobidiv{
         border: 0.1px solid #69696940 !important;
         
@@ -40,3 +43,4 @@
         }
        
     }
+    
