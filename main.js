@@ -23,3 +23,17 @@ var x = setInterval(function(){
     }
 } ,1000);
 
+
+var form = document.getElementById("myform")
+var btn = document.getElementById("loginuser")
+
+
+
+btn.onclick = function() {
+   form.style.display = "flex";
+  }
+  window.onclick = function(event) {
+   if (event.target == form) {
+     form.style.display = "none";
+   }
+ }

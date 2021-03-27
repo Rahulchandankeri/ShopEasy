@@ -14,6 +14,7 @@
     <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="style.css">
     <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="max.css">
     <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="min.css">
+    <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="login.css">
 
 </head>
 <body>
@@ -27,7 +28,7 @@
         </div>
         
         <div class="rtside">
-            <i id="dis1" style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-sign-out-alt"><span class="login">Log In</span></i>
+            <i id="dis1" style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-sign-out-alt"><a href="#" id="loginuser"><span class="loginbtn">Log In</span></a></i>
             <i style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-shopping-cart"><span class="cart">Cart</span></i>
 
         </div>
@@ -40,6 +41,30 @@
     <div class="producthead">
         <span>Top Sellers</span>
     </div>
+      
+    <div id="myform" class="form">
+        <div class="formcontainer">
+            <span style="font-family: Overpass;text-align:center;font-style: normal;font-weight: 800;font-size: xx-large;color: rgba(129, 189, 0, 0.75);">ShopEasy</span>
+            <hr style="width: 100%; border: 1px solid #ABABAB;">
+            
+        
+            <input type="email" name="Enter Email-Id" placeholder="Enter your email id" title="enter your email" validate>
+            <hr class="line1">  
+            <input type="password" name="Enter Password" placeholder="Enter your password" title="enter your password" validate>
+            <hr class="line1">  
+            <button  class="loginformbtn" >Log In</button>
+     
+            <div class="signalt">
+               
+    
+            </div>
+            <a onclick="forgot()"><span class="frgpass">Forgot password?</span></a>
+            <a onclick="create()"><span class="create-account">Create Account</span></a>
+        </div>
+
+    </div>
+
+   
    
     <div class="productcontainer">
         <div class="pbody">

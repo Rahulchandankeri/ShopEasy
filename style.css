@@ -65,7 +65,7 @@ body{
     font-size:  x-large;
     margin-right: 20px;
 }
-.login{
+.loginbtn{
     float: right;
     color: #ffffff;
     border-radius: 25px;
@@ -83,6 +83,10 @@ body{
     max-width: 100%;
 
 }
+.slide img:hover {
+    transform: scale(1.054);
+}
+
 .producthead{
     display: flex;
     position: relative;
@@ -170,7 +174,7 @@ opacity:100%;
  }
  .quickviewcontent:hover{
      opacity: 1;
-     background: rgb(255, 91, 41);
+     background: rgba(255, 91, 41, 0.87);
      transform: scale(0.97);
  }
 
