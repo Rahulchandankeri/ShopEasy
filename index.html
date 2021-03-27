@@ -11,6 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="style.css">
     <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="max.css">
     <link type="text/css" rel="stylesheet prefetch" referrerpolicy="strict-origin" href="min.css">
@@ -27,9 +29,11 @@
 
         </div>
         
-        <div class="rtside">
-            <i id="dis1" style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-sign-out-alt"><a href="#" id="loginuser"><span class="loginbtn">Log In</span></a></i>
-            <i style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-shopping-cart"><span class="cart">Cart</span></i>
+        <div class="rtside">   <button style="border:none; background: none; outline: none; cursor: pointer;"  id="loginuser">
+            <i id="dis1" style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-sign-out-alt"><span class="loginbtn">Log In</span></button></i>
+            <button style="border:none; background: none; outline: none; cursor: pointer;" id="cartx" onclick="cartcheck()">
+            
+            <i style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-shopping-cart"><span class="cart">Cart</span></button></i>
 
         </div>
     </div>
@@ -38,6 +42,7 @@
         <img src="assets/dynamic/banner3.png" style="align-content: center;margin: auto;width: 2560px;max-width: 100%;">
 
     </div>
+    <div id="cartempty" class="cartempty"><p>Cart is empty!</p></div>
     <div class="producthead">
         <span>Top Sellers</span>
     </div>
@@ -45,21 +50,21 @@
     <div id="myform" class="form">
         <div class="formcontainer">
             <span style="font-family: Overpass;text-align:center;font-style: normal;font-weight: 800;font-size: xx-large;color: rgba(129, 189, 0, 0.75);">ShopEasy</span>
-            <hr style="width: 100%; border: 1px solid #ABABAB;">
-            
+            <hr style="width: 100%; border: 0.1px solid #e0e0e0;">
+        <form>
         
-            <input type="email" name="Enter Email-Id" placeholder="Enter your email id" title="enter your email" validate>
+            <input type="email" placeholder="Enter your email id" required>
             <hr class="line1">  
-            <input type="password" name="Enter Password" placeholder="Enter your password" title="enter your password" validate>
+            <input type="password" placeholder="Enter your password"  validate>
             <hr class="line1">  
-            <button  class="loginformbtn" >Log In</button>
+            <button  class="loginformbtn">Log In</button>
      
             <div class="signalt">
                
     
             </div>
             <a onclick="forgot()"><span class="frgpass">Forgot password?</span></a>
-            <a onclick="create()"><span class="create-account">Create Account</span></a>
+            <a onclick="create()"><span class="create-account">Create Account</span></a></form>
         </div>
 
     </div>

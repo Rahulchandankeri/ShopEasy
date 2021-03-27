@@ -37,3 +37,17 @@ btn.onclick = function() {
      form.style.display = "none";
    }
  }
+
+ function cartcheck(){
+
+   cartempty.style.display = "block";
+
+   setTimeout( function(){
+    cartempty.style.display = "none";
+   },2000)
+  }
+ 
+
+
+
+
