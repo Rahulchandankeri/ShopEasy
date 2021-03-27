@@ -19,9 +19,8 @@
     .productcontainer{
         background: none;
         border: none;
-      
         max-width: 100% !important;
-        display: grid !important;
+        flex-direction: column !important;
 
     }
     .offer{
