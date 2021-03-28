@@ -9,7 +9,7 @@
     z-index: 1;
     height: 100%;
     max-height: 100%;
-    background-color: #232323d1
+    background-color: #000000d9;
 
 }
 .formhead{
@@ -17,7 +17,7 @@
     padding: 20px;
     margin: auto;
     top: 171px;
-    background: #FF5454;
+    background: #00b96c;
     opacity: 0.9;
 }
 .formbody{
@@ -37,7 +37,7 @@
     width: 40%;    
     padding: 20px;
     margin: auto;
-    background: #FF5454;
+    background: #00b96c;
     height: 40px;
 }
 .brand{
@@ -74,22 +74,30 @@
 }
 .forgotpass{
    float: left; 
+   cursor: pointer;
    font-family: 'Roboto';
    font-style: normal;
    font-weight: normal;
    font-size: x-large;
    text-align: center;
    color: #FFFFFF;
+   background: none;
+   border: none;
+   outline: none;
    
 }
 .createbew{
    float: right;
+   cursor: pointer;
    font-family: 'Roboto';
    font-style: normal;
    font-weight: normal;
    font-size: x-large;
    text-align: center;
    color: #FFFFFF;
+   background: none;
+   border: none;
+   outline: none;
 }
 .divline{
     display: flex;
@@ -103,6 +111,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: xx-large;
+    margin: 10px;
     width: 100%;
     color: #919191;
     border: none;
@@ -110,8 +119,8 @@
 
 }
 .loginbtnfrm{
-    margin-top: 15px;
-    background:#1a535c;
+    margin-top: 20px;
+    background: rgb(255 118 77);
     padding: 03% 15% 03% 15%;
     border: none;
     outline: none;
@@ -122,7 +131,7 @@
 }
 .loginbtnfrm:hover{
     opacity: 1;
-    background: #1a535c;
+    background: rgb(255 118 77);
 }
 
 @media screen and (max-width:600px){
