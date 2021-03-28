@@ -30,7 +30,7 @@ var btn = document.getElementById("loginuser")
 
 
 btn.onclick = function() {
-   form.style.display = "flex";
+   form.style.display = "unset";
   }
   window.onclick = function(event) {
    if (event.target == form) {
