@@ -44,5 +44,9 @@
             max-width: 100% !important;
             flex-direction: column !important;
     
-        }}
+        }
+        .form{
+            padding-top: 0;
+        }
+    }
     
