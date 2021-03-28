@@ -6,9 +6,7 @@
     #dis1{
         display: block;
     }
-    .cart{
-        display:block !important;
-    }
+
 }
 @media screen and (min-width: 860px) {
 

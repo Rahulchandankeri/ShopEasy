@@ -16,13 +16,7 @@
     }
  
 
-    .productcontainer{
-        background: none;
-        border: none;
-        max-width: 100% !important;
-        flex-direction: column !important;
-
-    }
+   
     .offer{
         flex-direction: column !important;
     }
@@ -43,4 +37,12 @@
         }
        
     }
+    @media screen and (max-width: 630px) {
+        .productcontainer{
+            background: none;
+            border: none;
+            max-width: 100% !important;
+            flex-direction: column !important;
+    
+        }}
     
