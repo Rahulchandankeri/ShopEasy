@@ -1,0 +1,45 @@
+@media screen and (max-width: 900px) {
+    body{
+        width: 95%;
+    }
+    .logo{
+        max-width: 20%;
+    }
+    .logintxt{
+        display: none !important;
+    }
+    #dis1{
+        display: none;
+    }
+    .carttxt{
+        display: none !important;
+    }
+    .offer{
+        flex-direction: column !important;
+    }
+    .mobidiv{
+        border: 0.1px solid #69696940 !important;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .footer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 630px) {
+    .productcontainer{
+        background: none;
+        border: none;
+        max-width: 100% !important;
+        flex-direction: column !important;
+    }
+    .form{
+        padding-top: 40px;
+    }
+}
+   
+   
+    

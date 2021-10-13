@@ -1,0 +1,13 @@
+@media screen and (min-width: 670px) {
+    .login{
+    display: block!important;
+}
+#dis1{
+    display: block;
+}
+}
+@media screen and (min-width: 860px) {
+    .searchcontainer {
+    width: 400px;
+}
+}

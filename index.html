@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to EasyShop, Shop products faster, easier. Get delivered in 90minutes">
+    <meta name="author" content="Rahul Chandankeri">
+    <meta name="keywords" content="Shopping,upto 90% off,mobiles,laptops,online shopping,">
+    <title>ShopEasy | Online Shopping</title>
+    <link rel="preconnect" href="auth.css">
+    <link rel="stylesheet" href="auth.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link type="text/css" rel="stylesheet" referrerpolicy="strict-origin" href="style.css">
+    <link type="text/css" rel="stylesheet" referrerpolicy="strict-origin" href="max.css">
+    <link type="text/css" rel="stylesheet" referrerpolicy="strict-origin" href="min.css">
+    <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Top navigation-->
+    <div class="topnavigator">
+        <img class="logo" alt="ShopEasy logo" src="assets/static/ShopEasy.png">
+        <div class="searchcontainer">
+            <i style="color: #8f8f8f;" class="fas fa-search"></i>
+            <input type="search" class="search" placeholder="Search for products, brands..." title="Search for products, brands..">
+        </div>
+        <div style="margin: auto;"><!--Top navigation right side elements-->
+            <button style="border:none; background: none; outline: none; cursor: pointer;" id="loginuser">
+            <i id="dis1" style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-sign-out-alt"><span class="logintxt">Log In</span></button></i>
+            <button style="border:none; background: none; outline: none; cursor: pointer;" id="cartx" onclick="cartcheck()">
+            <i style="float: right; margin: auto; color: #FFFFFF; font-size: x-large;" class="fas fa-shopping-cart"><span class="carttxt">Cart</span></button></i>
+        </div>
+    </div>
+    <!--Top navigation ends here-->
+    <!--cart status here-->
+    <div id="cartempty" class="cartempty"><span style="background: #272727ec;color: #ffffff;padding: 12px 65px;width: 100%; border-radius: 02px;z-index: 1;">Cart is empty!</span></div>
+    <!--Image slide container-->
+    <div class="slide">
+        <img src="assets/dynamic/banner3.png" alt="shopping banner_Easy shop" style="align-content: center; margin: auto; width: 2560px; max-width: 100%;">
+    </div>
+    <div class="sellerlabel">
+        <span>Top Sellers</span>
+    </div>
+    <!--Log in form starts-->
+    <div id="myform" class="form">
+        <div class="formouter"> 
+             <div class="formhead">
+            <span class="brand">ShopEasy</span>
+            <span class="logintxthd">Login</span>
+            <span class="logcapt">Get access to cart, orders, wishlist</span>
+        </div>
+        <div class="formbody">
+            <form>
+                <input type="email"  title="Enter your email-id"  placeholder="Enter email-id"  required>
+                <input type="password" title="Enter your password"  placeholder="Enter password" required>
+            </form>
+         
+                <button class="loginbtnfrm">Log In</button>   
+           
+        </div>
+        <div class="formfoot">
+            <button class="forgotpass" onclick="" title="Forgot password">Forgot password?</button>
+            <button class="createbew" onclick="" title="Create account" >Create account</button>
+        </div>
+    </div>
+    </div>
+    <!--Log in form ends starts-->
+
+
+    <!--product listing starts-->    
+    <div class="productcontainer">
+        <div class="productbody">
+            <div class="product">
+                <img src="assets/dynamic/brushes.png">
+            </div>
+            <div class="viewmore">
+                <p>View more</p>
+            </div>
+         
+            <div class="productdetails"> 
+                <span class="productname">Wooden Toothbrush (Pack of 3)</span><br>
+                <span class="productprice">₹149</span>
+            </div>
+        </div>
+        <!--product 1 ends-->
+        <div class="productbody">
+            <hr class="mobidiv">
+            <div class="product"><img src="assets/dynamic/bodyoil.png"></div>
+            <div class="viewmore"><p>View more</p></div>
+            <div class="productdetails"> 
+                <span class="productname">Cocooil Organic Oil (200ml)</span><br>
+                <span class="productprice">₹449</span>
+            </div>
+        </div>
+         <!--product 2 ends-->
+        <div class="productbody">
+            <hr class="mobidiv">
+            <div class="product"><img src="assets/dynamic/soap.png"></div>
+            <div class="viewmore"><p>View More</p></div>
+            <div class="productdetails"> 
+                <span class="productname">Dille & Kamille Soap (pack of 1)</span><br>
+                <span class="productprice">₹99</span>
+            </div>
+        </div>
+        <!--product 3 ends-->
+    </div>
+    <!--offer section-->
+    <div class="offer">
+        <div class="offer1"><img alt="discount" src="assets/dynamic/discount.png"></div>
+        <div class="offer1">
+            <span class="currentx">Product launch in: <p id="current">Loading...</p></span> 
+            <img alt="product launch" src="assets/dynamic/launchback.png">
+         </div>
+    </div>
+    <!--offer section ends-->
+    <div class="sellerlabel nxt"><span>Best Sellers</span></div>
+    <!--product listing starts here-->
+    <div class="productcontainer other">
+        <div class="productbody">
+            <div class="product"><img alt="hand sanitizer" src="assets/dynamic/handsantizer.png"></div>
+            <div class="viewmore"><p>View More</p></div>
+            <div class="productdetails">
+                <span class="productname">Hand Cleansing Gel (80ml)</span><br>
+                <span class="productprice">₹79</span>
+            </div>
+        </div>
+            
+        <!--product 1 ends-->
+        <div class="productbody">
+            <div class="product"><img alt="bamboo shampoo" src="assets/dynamic/bamboshampoo.png"></div>
+            <div class="viewmore"><p>View More</p></div>
+            <div class="productdetails"> 
+                <span class="productname">Bamboo Fibre Shampoo (250ml)</span><br>
+                <span class="productprice">₹210</span>
+            </div>
+        </div>
+        <!--product 2 ends-->
+        <div class="productbody">
+            <div class="product"><img alt="perfumes" src="assets/dynamic/perfume.png"></div>
+            <div class="viewmore"><p>View more</p></div>
+            <div class="productdetails"> 
+                <span class="productname">Verwang men's perfume (150ml)</span><br>
+                <span class="productprice">₹599</span>
+            </div>
+        </div>
+        <!--product 3 ends-->
+    </div>
+    <!--Footer starts here-->
+    <div class="footer">
+        <div class="flexifoot">
+            <h2>About</h2>
+            <a target="_blank" href="#">Contact</a>
+            <a target="_blank" href="">About Us</a>
+            <a target="_blank" href="">Our Stories</a>
+            <a target="_blank" href="">Bulk Order</a>
+        </div>
+        <div class="flexifoot">
+            <h2>Help</h2>
+            <a target="_blank" href="">Payments</a>
+            <a target="_blank" href="">Shipping</a>
+            <a target="_blank" href="">Cancellations</a>
+            <a target="_blank" href="">FAQ</a>
+        </div>
+        <div class="flexifoot">
+            <h2>Policy</h2>
+            <a target="_blank" href="">Returns</a>
+            <a target="_blank" href="">Privacy</a>
+            <a target="_blank" href="">Term Of Use</a>
+            <a target="_blank" href="">Other</a>
+        </div>
+        <div class="flexifoot">
+            <h2>Products</h2>
+            <a target="_blank" href="">Soaps</a>
+            <a target="_blank" href="">Shampoos</a>
+            <a target="_blank" href="">Brush</a>
+            <a target="_blank" href="">More</a>
+        </div>
+        <div class="flexifoot">
+            <h2>Social</h2>
+            <a target="_blank" href="">Facebook</a>
+            <a target="_blank" href="">Instagram</a>
+            <a target="_blank" href="">Twitter</a>
+            <a target="_blank" href="">Koo</a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/424ece3e72.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+.form {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  padding-top: 10%;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  max-height: 100%;
+  background-color: #000000d9;
+}
+.formhead {
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  top: 171px;
+  background: #00b96c;
+}
+.formbody {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  height: 300px;
+  padding: 100px 20px 0px 20px;
+  background: rgb(255, 255, 255);
+}
+.formfoot {
+  display: block;
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  background: #00b96c;
+  height: 45px;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+.logintxthd {
+  display: flex;
+  justify-content: left;
+  font-size: x-large;
+  text-align: left;
+  font-family: "Roboto";
+  margin: auto;
+  color: #ffffff;
+}
+.logcapt {
+  display: flex;
+  justify-content: left;
+  font-family: "Roboto";
+  font-size: large;
+  text-align: left;
+  margin: auto;
+  color: #ffffff;
+}
+.forgotpass {
+  float: left;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: x-large;
+  text-align: center;
+  color: #ffffff;
+  background: none;
+  border: none;
+  outline: none;
+}
+.createbew {
+  float: right;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: x-large;
+  text-align: center;
+  color: #ffffff;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.form input[placeholder] {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: larger;
+  margin: 10px;
+  max-width: 300px;
+  width: 100%;
+  color: #919191;
+  border: 0.1px solid rgb(209, 209, 209);
+  outline: none;
+}
+.loginbtnfrm {
+  position: relative;
+  top: 30px;
+  margin: auto;
+  background: rgb(255 118 77);
+  padding: 10px 15px 10px 15px;
+  border: none;
+  outline: none;
+  font-size: x-large;
+  color: #ffffff;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.loginbtnfrm:hover {
+  opacity: 1;
+  background: rgb(255 118 77);
+}
+
+@media screen and (max-width: 600px) {
+  .formhead,
+  .formbody,
+  .formfoot {
+    width: 75%;
+    margin: auto;
+  }
+}
